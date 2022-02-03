@@ -1,8 +1,5 @@
-*{
-    width: 0%;
-    padding: 0%;
-    height:0%;
-}
+
+   
 body{
 
     background-image: url(Imagens/background01\ 1300x740.png);
@@ -10,11 +7,22 @@ body{
     background-repeat: no-repeat;
     width: 1348px;
     height: 2000px;
-    margin:0px;
-    display: none;
+    
 
 }
 header{
 
-
+height: 200px;
+background-color: rgb(0, 0, 0);
+margin: auto;
+width:1338px;
 }
+
+img{
+    margin: auto;
+    display: block;
+}
+
+    
+  
+  
