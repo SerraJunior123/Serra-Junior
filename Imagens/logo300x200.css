@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@font-face { font-family:"Bebas";font-variant:normal;font-weight:normal;src:url("#FontID1") format(svg)}
+@font-face { font-family:"IDroid";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+.fil2 {fill:#FEFEFE}
+.fil1 {fill:#E6E7E8}
+.fil0 {fill:url(#id1)}
+.fnt2 {font-weight:normal;font-size:53.95px;font-family:'Bebas'}
+.fnt1 {font-weight:normal;font-size:109.62px;font-family:'Bebas'}
+.fnt0 {font-weight:normal;font-size:580.65px;font-family:'IDroid'}
