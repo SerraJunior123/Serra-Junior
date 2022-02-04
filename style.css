@@ -1,4 +1,8 @@
-
+@charset "utf-8";
+@font-face {
+    font-family: 'idroid.otf';
+    src: url(../Projeto-Android/fontes/idroid.otf);
+}
    
 body{
 
@@ -36,12 +40,19 @@ li{
    padding-left: 20px;
    
 }
+a{
+    background-color:rgba(245, 255, 250, 0.753);
+    padding: 4px;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: red;
+
+}
 ul{
    text-align: center;
   margin: 0px;
-   
-   
-    
+  font-family: 'idroid.otf';   
 }
 
 .logotipo{
