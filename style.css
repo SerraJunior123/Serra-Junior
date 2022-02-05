@@ -31,11 +31,19 @@
     padding-left: 25px; 
      
 }
-.menu li>a{
+.menu li a{
     color: white;
     text-decoration: none;
     font-family:"idroid.otf";
+    font-size: 1.2em;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px 4px;
+
       
+}
+li a:hover{
+    color: blue;
 }
 body{
     background-image: url(Imagens/background01\ 1300x740.png);
@@ -47,7 +55,7 @@ body{
 #banner{
     display:block;
     margin: auto;
-    margin-top: -10px;
+    
 }
 .pagina{
     width: 800px;
@@ -59,6 +67,12 @@ body{
     margin-bottom: 300px;
 
 }
+.robo01{
+    width: 300px;
+    height: 400px;
+    display:inline-block;
+    margin-left: 705px;
+}
 .paginab{
     margin-top: 300px;
     width: 800px;
@@ -67,10 +81,18 @@ body{
     margin: auto;
     border-radius: 10px;
     box-shadow:1px 2px 10px black;
-
-    
 }
+div img.robo02{
+    width: 300px;
+    height: 400px;
+    margin-left:-205px;
+    transform: scaleX(-1);
+    display:inline-block;
+ 
+}
+    
 
+}
 main{
     height: 1500px;
 }
