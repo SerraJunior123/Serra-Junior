@@ -49,18 +49,19 @@ li a:hover{
     color: yellow;
 
 }
+/*  botão meu portifolio*/
+
 h1{
     color:blue;
-    width: 150px;
+    max-width: 150px;
     font-family:'idroid.otf';
     font-size: 1em;
-    margin-left: 700px;
-    margin-right: 20px;
-    margin-top: 0px;
     background-color: none;
     border: 3px solid white;
     border-radius: 5px;
-    display:inline-block;
+    display:block;
+    margin-top:-28px;
+    margin-left: 700px;
     text-align: center;
     padding: 3px;
     
@@ -73,6 +74,8 @@ p{
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
 }
+/*  botão meu portifolio*/
+
 body{
     background-image: url(Imagens/background01\ 1300x740.png);
     background-repeat: no-repeat;
