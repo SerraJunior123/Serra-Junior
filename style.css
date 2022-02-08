@@ -45,11 +45,27 @@
 li a:hover{
     color: blue;
 }
+
+
 #back:hover{
     color: yellow;
+    
 
 }
-/*  botão meu portifolio*/
+/*  botão meu portifolio e contatos*/
+h1.contato{
+    color:blue;
+    
+font-family:'idroid.otf';
+text-align: center;
+font-size: 1.5em;
+background-color: none;
+border-radius: 5px;
+display:block;
+width: 350px;
+margin-top: 30px;
+margin-left:650px;
+}  
 
 h1{
     color:blue;
@@ -58,19 +74,18 @@ h1{
     text-align: center;
     font-size: 1.5em;
     background-color: none;
- 
     border-radius: 5px;
-    display:block;
+    display:inline-block;
     width: 350px;
     margin-top: 30px;
-    margin-left:500px;
-   
+    margin-left:600px;  
     
 }
 p{
    color:white;
    text-align: right;
-   margin-right: 75px;
+   margin-right: 60px;
+   font-size: .5em;
    margin-top: px;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
