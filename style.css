@@ -3,16 +3,21 @@
     font-family: 'idroid.otf';
     src: url(fontes/idroid.otf);
 }
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 
+   
+
+
 .barradecima{
     background-color:black;
     width: 100%;
     height: 200px;
+   
 }
 #logomarca{
     width: 200px;
@@ -21,17 +26,15 @@
     padding-left: 60px;
 }
 .menu{
-    text-align:center;
-    margin-top: -90px;
-    
-  
+    position:relative;
+    text-align: center;
+    bottom: 40px
 }
 .menu li{
     display:inline-block;
-    padding-left: 25px; 
     
-     
 }
+
 .menu li a{
     color: white;
     text-decoration: none;
@@ -104,9 +107,9 @@ p{
 body{
     background-image: url(Imagens/background01\ 1300x740.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
 #banner{
     display:block;
@@ -153,19 +156,115 @@ main{
     height: 1100px;
 }
 .boxportifolio{
+    position: relative;
     width: 700px;
-    height: 1500px;
+    height: 450px;
     background-color: white;
     display: block;
     margin: auto;
     border-radius: 10px;
     margin-top: 15px;
+    margin-bottom: 50px;
     box-shadow: 2px 2px 5px;
 }
-footer #rodap{
+#textoport{
+    position:absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    color:darkblue;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+
+}
+footer #rodapé{
     background-color: black;
     height: 20px;
     width: 100%;
     color: white;
     text-align: center;
+    padding-top: 3px;
 }
+
+@media (max-width: 600px){
+    .barradecima{
+        position: relative;
+        width: 100%;
+       
+    }
+    .menu {
+        display: block;
+        float:none;
+       
+    }
+    .menu li{
+        margin: auto;
+        display: block;
+        float: none;
+        border: none;
+    }
+    .menu li a{
+        text-align: center;
+        border:none;
+        position: relative;
+        display: block;
+        margin: auto;
+        bottom: 80px;
+       
+    }
+    #logomarca{
+        position: relative;
+        display: block;
+        padding: 0;
+     margin:auto;
+        width: 30%;
+        height: 40%;
+    }
+    #banner{
+        display:none;
+       
+
+    }
+    .pagina{
+        width: 350px;
+        height: 200px;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow:1px 2px 10px black;
+        margin-bottom: 100px;
+    
+    }
+    .robo01{
+        width: 150px;
+        height: 200px;
+        display:block;
+        margin-left: 300px;
+        
+       
+    }
+    div img.robo02{
+        width: 150px;
+        height: 200px;
+        margin-left: -100px;
+        transform: scaleX(-1);
+        display:inline;
+    }
+    .paginab{
+        width: 350px;
+        height: 200px;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow:1px 2px 10px black;
+        margin-bottom: 100px;
+}
+footer #rodapé{
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
