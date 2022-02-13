@@ -9,6 +9,8 @@
     padding: 0px;
 }
 @media (max-width: 720px){
+
+
     .barradecima{
         position: relative;
         width: 100%;
@@ -80,6 +82,18 @@
         border-radius: 10px;
         box-shadow:1px 2px 10px black;
         margin-bottom: 100px;
+}
+.boxportifolio{
+    position: relative;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px;
 }
 footer #rodapé{
     background-color: black;
