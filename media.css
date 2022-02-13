@@ -1,0 +1,92 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'idroid.otf';
+    src: url(fontes/idroid.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 320px){
+    .barradecima{
+        position: relative;
+        width: 100%;
+       
+    }
+    .menu {
+        display: block;
+        float:none;
+       
+    }
+    .menu li{
+        margin: auto;
+        display: block;
+        float: none;
+        border: none;
+    }
+    .menu li a{
+        text-align: center;
+        border:none;
+        position: relative;
+        display: block;
+        margin: auto;
+        bottom: 80px;
+       
+    }
+    #logomarca{
+        position: relative;
+        display: block;
+        padding: 0;
+     margin:auto;
+        width: 30%;
+        height: 40%;
+    }
+    #banner{
+        display:none;
+       
+
+    }
+    .pagina{
+        width:250px;
+        height: 200px;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow:1px 2px 10px black;
+        margin-bottom: 100px;
+    
+    }
+    .robo01{
+        width: 150px;
+        height: 200px;
+        display:none;
+        margin-left: 300px;
+        
+       
+    }
+    div img.robo02{
+        width: 150px;
+        height: 200px;
+        margin-left: -100px;
+        transform: scaleX(-1);
+        display:none;
+    }
+    .paginab{
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow:1px 2px 10px black;
+        margin-bottom: 100px;
+}
+footer #rodapé{
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+}
