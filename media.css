@@ -8,7 +8,7 @@
     margin: 0px;
     padding: 0px;
 }
-@media (max-width: 320px){
+@media (max-width: 720px){
     .barradecima{
         position: relative;
         width: 100%;
